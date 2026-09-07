@@ -2,11 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Album Showcase</title>
         <link rel="stylesheet" href="music.css">
     </head>
-</html>
 <body>
 
     <div class="album-container">
@@ -16,22 +15,85 @@
         </div>
         <!-- Right Side: Details & Tracklist -->
          <div class="album-details">
-            <h1 class="album-title">OVERATTED</h1>
-            <h2 class="artist-name">KII</h2>
-            <p class="release-info"> Released: 2026 • 12 Tracks </p>
+            <h1 class="album-title">TITLE: OVERATTED</h1>
+            <h2 class="artist-name">Artist: KII</h2>
+            <p class="release-info"> RELEASED: <time datetime="2026-09-04">September 4, 2026</time>|
+            <span>4 Tracks</span></p>
             
-            <h3>Tracklist</h3>
-            <ol class="tracklist">
-                <li> Ice Cold <span class="duration">3:40</span></li>
-                 <li> F.N <span class="duration">1:30</span></li>
-                  <li> Traumatized <span class="duration">2:50</span></li>
-                   <li> Nobody <span class="duration">3:15</span></li>
-            </ol>
+            <h3>Tracklist & Player</h3>
+            <div class="tracklist-container">
+                <!-- Track 1 -->
+            <div class="track-row"> 
+                <div class="track-info">
+                    <span class="track-number">01</span>
+                    <span class="track-title">Ice Cold</span>
+                    <span class="track-genre">Hip Hop</span>
+                </div>
+                <audio controls autoplay src="" type="audio/mpeg">Your browser does not support the audio element</audio>
+            </div>
+
+            <!-- Track 2 -->
+             <div class="track-row">
+                <div class="track-info">
+                    <span class="track-num">02</span>
+                    <span class="track-title">F.N</span>
+                    <span class="track-genre">Trap</span>
+                </div>
+                <audio controls autoplay src="" type="audio/mpeg">Your browser does not support the audio element</audio>
+             </div>
+
+             <!-- Track 3 -->
+             <div class="track-row">
+                <div class="track-info">
+                    <span class="track-num">03</span>
+                    <span class="track-title">Nobody</span>
+                    <span class="track-genre">R&B</span>
+                </div>
+                <audio controls autoplay src="" type="audio/mpeg">Your browser does not support the audio element</audio>
+             </div>
+
+             <!-- Track 4 -->
+             <div class="track-row">
+                <div class="track-info">
+                    <span class="track-num">04</span>
+                    <span class="track-title">Mood Swings</span>
+                    <span class="track-genre">Trap</span>
+                </div>
+                <audio controls autoplay src="" type="audio/mpeg">Your browser does not support the audio element</audio>
+             </div>
+            <!--Call to action and streaming links-->
+            <section class="streaming-links">
+                <h2>Stream & Buy</h2>
+                <!--Call to action button-->
+                <button type="button" class="cta-btn">Pre-save/Buy</button>
+                <ul>
+                    <li>
+                        <a href="https://open.spotify.com/artist/6jGMq4yGs7aQzuGsMgVgZR?si=n-vs_MtJRoGllhWOIJcMKQ" target="_blank" rel="noopener">Listen on spotify</a>
+                    
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/bPgpL0nX2OY?si=ys8_PCBUbUeTxnrD" target="_blank" rel="noopener">Watch on youtube</a>
+                    </li>
+                </ul>
+            </section>
+            <!--Star reviews-->
+            <section class="reviews-section">
+                <figure>
+                    <div class="rating">
+                        <data value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</data>
+                    </div>
+                    <figcaption><cite>Rolling stone magazine</cite></figcaption>
+                </figure>
+            </section>
             <div class="buttons">
                 <a href="#" class="btn play-btn">Listen Now</a>
                 <a href="#" class="btn share-btn">Share</a>
             </div>
          </div>
     </div>
+    <!--Footer-->
+    <footer>
+        <p> &copy;2026 KII/Columbia Records.All rights reserved</p>
+    </footer>
 </body>
 </html>
