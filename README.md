@@ -11,6 +11,7 @@ Every development project is organized cleanly into its own dedicated subdirecto
 * 🎵 **[music_landing/](./music_landing/)** - A premium, dark-themed music showcase built for the custom album launch **"OVERRATED"**. Features integrated media play lanes, gold star metric review metrics, and modern glassmorphic action buttons.
 * 📋 **[survey/](./survey/)** - Form component layouts evaluating structured input modules and data submission grids.
 * 🐾 **[catapp/](./catapp/)** - Wireframe structure analyzing fundamental positioning controls and text box alignments.
+* 🛍️ **[product_landing/](./product_landing/)** - A sleek, high-conversion landing page layout designed to highlight premium product features and specification matrices.
 
 ---
 
