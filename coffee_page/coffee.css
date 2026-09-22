@@ -18,9 +18,7 @@ nav{
     background-color: #121212;
     border-bottom: 1px solid #1f1f1f;
     position: sticky;
-    top
-
-z-index: 1000;
+    z-index: 1000;
 }
 
 nav .logo {
@@ -31,7 +29,7 @@ nav .logo {
 }
 
 nav .nav-links a {
-    color: #a0a0a0;
+    color: #ffb7b2;
     text-decoration: none;
     margin-left: 25px;
     transition: color 0.3s;
