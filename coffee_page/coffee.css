@@ -1,3 +1,4 @@
+/* General Styles */
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +9,59 @@ body{
  background-color: #0b0b0b;
  color: #e5e5e5; 
  line-height: 1.6;
+}
+nav{
+    display: flex;
+    justify-content: space-between; /* Pushes the logo to the left and links to the right */
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #121212;
+    border-bottom: 1px solid #1f1f1f;
+    position: sticky;
+    top
+
+z-index: 1000;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .nav-links a {
+    color: #a0a0a0;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: color 0.3s;
+}
+nav .nav-links a:hover {
+    color: #c7a17c;
+}
+#home{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#home h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+
+#home img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #222;
 }
