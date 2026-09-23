@@ -129,3 +129,81 @@ margin-bottom: 30px;
     font-size: 15px;
     color: #a0a0a0;
 }
+
+/*contact section*/
+#contact {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    color: #a0a0a0;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 50%;
+    background-color: #121212;
+    border: 1px solid #262626;
+    color: #fff;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: 1px solid #c7a17a;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Footer section */
+footer {
+    background-color: #121212;
+    border-top: 1px solid #1f1f1f;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 15px; /* Adds space under the icons */
+}
+
+footer a {
+    color: #a0a0a0;
+    font-size: 22px;
+    margin: 0 12px;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+footer a:hover {
+    color: #c7a17a;
+    transform: scale(1.15); /* Slight pop animation on hover */
+}
+
+footer p {
+    color: #666;
+    font-size: 14px;
+}
