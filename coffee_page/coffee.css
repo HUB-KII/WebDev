@@ -105,14 +105,14 @@ margin-bottom: 30px;
     margin-bottom: 40px;
   
 }
-.about-content{
+.features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin-top: 40px;
 }
 
-.about-content div{
+.features-grid div{
     background-color: #1a1a1a;;
     padding: 30px;
     border-radius: 6px;
@@ -120,12 +120,12 @@ margin-bottom: 30px;
     text-align: left;
 }
 
-.about-content h3{
+.features-grid h3{
     font-size: 20px;
     margin-bottom: 12px;
     color: #c7a17a;
 }
-.about-content p{
+.features-grid p{
     font-size: 15px;
     color: #a0a0a0;
 }
